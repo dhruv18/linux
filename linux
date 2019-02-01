@@ -1,0 +1,56 @@
+pwd = print working directory.
+ls  = list down the folder files.
+cd .. = previews directory.
+echo = print the argument in terminals .
+su = used to swith to root user.(EXIT COMM FOR BACK)
+su useername = used to swich to a different user
+sudo =  executes only that comman with root user priviledges.
+
+ls -l =it's ownler an permission
+ls -a = hiddenfiles
+ls *.html = list all html file or andy format files
+ls -ls > file.txt = store result in txt file
+ 
+cd ->
+cd  = home directory
+cd ~ = home direactory
+
+cat -> display the content of that files.
+cat file1.txt >> file2.txt = copy file1 to file2
+
+grep -> to search for particular string/word in textfile.
+grep dh dhruv.txt = search dh in files and provide result.
+
+sort -> sort the content of file and return them in alphabatical way
+
+-r = reverse order
+-f = case insensitive
+-n = return result as per numerical order
+
+| -> pipe command
+grep file1.txt | sort => result of grep is pass to sort 
+
+cp ->
+cp -i = enters interactive mode; ask befor overwriting file
+cp -n = does not overwrite
+cp -R = copy directory and hiddenfile
+cp -v = print informative message.
+
+mv ->
+
+mkdir -> creat new folder
+mkdir -p = create two folder(folder and again insidefolder)
+mkdir dhruv{f1,f2,f3,f4} = make 4 folder inside dhruvfolder.
+
+
+rmdir -> delete child folder (only if it's empty directory)
+rmdir -p folder2/folder4 = delete both folde(parent and chaild)
+rm -r = removes event non empty directories.
+rm -rp = including parent and subdirectories.
+
+
+rwx= r>read,w>write,x>execute
+- = file
+d = directory
+c = character special file
+b = binaary special files

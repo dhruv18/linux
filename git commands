@@ -1,0 +1,13 @@
+github is use to host the git and provides services.
+
+git init
+
+git status
+
+git add -A
+
+git commit -m 'message'
+
+git checkout -- . =>>rollback all changes
+
+
