@@ -1,5 +1,9 @@
 github is use to host the git and provides services.
 
+
+git config --global user.name "dhruv"
+git config --global user.email "dhruv.@gmail.com"
+
 git init
 
 git status
@@ -10,4 +14,32 @@ git commit -m 'message'
 
 git checkout -- . =>>rollback all changes
 
+git remote add origin
+
+git push -u origin master
+
+
+......................................
+
+errors
+.............................
+
+NO -1 (if local files and server files has different 
+	commits)
+
+1 - git pull
+fatal: refusing to merge unrelated histories
+
+
+2 - git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+
+NO -1 solution is 
+git pull origin master --allow-unrelated-histories
+
+.....................................................
 
