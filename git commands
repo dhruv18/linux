@@ -41,5 +41,5 @@ and have 1 and 1 different commits each, respectively.
 NO -1 solution is 
 git pull origin master --allow-unrelated-histories
 
-.....................................................
+
 
